@@ -1,0 +1,120 @@
+@media only screen and (min-width: 768px) and (max-width:992px ){
+   
+    header,main{
+        padding: 0 10px 0 35px;
+    }
+
+    #filtres{
+        width: auto;
+        margin-right: 40px;
+    }
+    #filterContainer{
+        width: 100%;
+        gap: 12px;
+    }
+
+    .filterType{
+        width: auto;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .filterType i{
+        font-size: 18px;
+    }
+
+    .type {
+        margin: 0px 0px 0px 10px;
+        font-size: 17px;
+    }
+
+    #card{
+        flex-direction: column;
+    }
+
+    #hebergement{
+        margin-right: 0px;
+        margin-bottom: 53px;
+        padding-bottom: 46px;
+        width:auto;
+    }
+
+    #cardsHebergement{
+        justify-content: space-between;
+    }
+    #populaire{
+        width: auto;
+        height: auto;
+        padding-bottom: 48px;
+    }
+    #cardsPopulaire{
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .cardPopulaire{
+        width: 100%;
+        height: 144px;
+    }
+    .imagePopulaire{
+        width: 35%;
+        height: auto;
+    }
+
+    #bleuBlanc{
+        width: 35%;
+    }
+    .descriptionPopulaire{
+        padding: 12px 5px 12px 10px;
+        height: auto;
+    }
+    .descriptionPopulaire h3{
+        margin-top: 0px;
+        margin-bottom: 7px;
+        font-size: 14px;
+    }
+    .descriptionPopulaire p{
+        margin-bottom: 0px;
+        margin-top: 7px;
+        font-size: 13px;
+    }
+    #cardsPopulaire a{
+        width: 28%;
+        height: 144px;
+    }
+    
+    #activites{
+        width: auto;
+    }
+
+    #activityContainer{
+        margin-top: 34px;
+    }
+
+    #activites a{
+        width: 22%;
+        height: auto;
+    }
+    .activityCard{
+        width: auto;
+    }
+
+    .activityImage{
+        width:auto;
+        height: 211px;
+    }
+    .activityDescription{
+        width: auto;
+        height: 74px;
+        padding: 4px 10px 0px 10px ;
+    }
+
+    footer{
+        width: auto;
+        gap: 60px;
+        padding-right: 70px;
+    }
+    
+}
