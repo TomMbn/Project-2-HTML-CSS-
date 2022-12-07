@@ -191,11 +191,6 @@ h2, .filterType p{
     flex-direction: column;
 }
 
-#hebergement h1{
-    margin : 0px;
-}
-
-
 #populaire{
     width: 30%;
     flex-direction: column;
