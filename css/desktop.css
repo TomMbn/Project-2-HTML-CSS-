@@ -110,7 +110,6 @@ form button:hover{
 #filtres{
     display: flex;
     flex-direction: row;
-    margin-right: 450px;
     align-items: center;
 }
 
